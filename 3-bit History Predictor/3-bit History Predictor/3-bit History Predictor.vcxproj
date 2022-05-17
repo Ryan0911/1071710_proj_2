@@ -115,11 +115,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="%28low%293-bit_history_predictor.cpp" />
     <ClCompile Include="(high)3-bit_history_predictor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
+    <Text Include="input2.txt" />
+    <Text Include="input3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

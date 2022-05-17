@@ -10,7 +10,7 @@ struct inst_state {
 	int current = 0;
 	int state[8] = {0,0,0,0,0,0,0,0};
 };
-int Register[32] = {};
+int Register[32] = {}; // register
 int binaryToDecimal(string binary);
 int main() {
 	string all_state[8] = { "SN ","WN1","WN2","WN3","WT1","WT2","WT3","ST " };
@@ -19,8 +19,7 @@ int main() {
 	ifstream fin1;
 	fin1.open("input.txt");
 	int miss = 0;
-	while (getline(fin1, input)) {
-	}
+	while (getline(fin1, input));
 	string initial = "000";
 	inst_state test;
 	for (int i = 0; i < input.size(); i++) {
@@ -32,8 +31,15 @@ int main() {
 		cout << ")";
 		cout << "\tPrediction: "<< all_state2[test.state[test.current]];
 		cout << "\tActual: " << input[i];
+		if (input[i] == 'N') {
+			if(test.state[test.current]!=0)
+				test.state[test.current]--;
+		}
+		else if (input[i] == 'T') {
+			if (test.state[test.current] != 7)
+				test.state[test.current]++;
+		}
 		if (input[i] != all_state2[test.state[test.current]][0]) {
-			test.state[test.current]++;
 			miss++;
 		}
 		cout << "\tMiss: " << miss;

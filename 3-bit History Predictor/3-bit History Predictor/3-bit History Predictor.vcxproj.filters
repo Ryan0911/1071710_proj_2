@@ -18,11 +18,14 @@
     <Text Include="input.txt">
       <Filter>來源檔案</Filter>
     </Text>
+    <Text Include="input2.txt">
+      <Filter>來源檔案</Filter>
+    </Text>
+    <Text Include="input3.txt">
+      <Filter>來源檔案</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="%28low%293-bit_history_predictor.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
     <ClCompile Include="(high)3-bit_history_predictor.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
