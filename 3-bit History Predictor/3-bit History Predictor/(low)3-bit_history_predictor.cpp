@@ -13,7 +13,7 @@ struct inst_state {
 int Register[32] = {}; // register
 int binaryToDecimal(string binary);
 int main() {
-	string all_state[8] = { "SN ","WN1","WN2","WN3","WT1","WT2","WT3","ST " };
+	string all_state[8] = { "SN","WN1","WN2","WN3","WT1","WT2","WT3","ST" };
 	string all_state2[8] = { "N","N","N","N","T","T","T","T" };
 	string input;
 	ifstream fin1;

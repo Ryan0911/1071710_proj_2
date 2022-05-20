@@ -26,7 +26,7 @@ int main() {
 	for (int i = 0; i < 32; i++) {
 		Register[i] = 0;
 	}
-	string all_state[8] = { "SN ","WN1","WN2","WN3","WT1","WT2","WT3","ST " };
+	string all_state[8] = { "SN","WN1","WN2","WN3","WT1","WT2","WT3","ST" };
 	string all_state2[8] = { "N","N","N","N","T","T","T","T" };
 	string input;
 	ifstream fin1;
@@ -86,6 +86,14 @@ int main() {
 	string Actual_2 = "0";
 	for (int i = 0; i < instruction.size(); i++) {
 		cout << "----------------------------------------------------------------------" << endl;
+		cout << "Instruction: " << instruction[i][0] << " ";
+		for (int j = 1; j < instruction[i].size(); j++) {
+			if (j + 1 != instruction[i].size())
+				cout << instruction[i][j] << ", ";
+			else
+				cout << instruction[i][j];
+		}
+		cout << endl;
 		all_predictor[i%entries].current = binaryToDecimal(all_predictor[i%entries].initial);
 		cout << "Entry: " << i % entries<<"\t\t";
 		//該印的印一印，接下來處理...prediction???
@@ -94,25 +102,18 @@ int main() {
 		for (int i2 = 0; i2 < 8; i2++) {
 			cout << ", " << all_state[all_predictor[i%entries].state[i2]];
 		}
-		cout << ")"<<endl;
-		cout << "Instruction: " << instruction[i][0] << " ";
-		for (int j = 1; j < instruction[i].size(); j++) {
-			if (j + 1 != instruction[i].size())
-				cout << instruction[i][j] << ", ";
-			else
-				cout << instruction[i][j];
-		}
+		cout << ")";
 		if (Actual == "0") {
 			Actual_2 = "N";
 		}
 		else {
 			Actual_2 = "T";
 		}
-		cout << endl << "Actual: " << Actual_2 << "\t\t Prediction: " << all_state2[all_predictor[i%entries].current] << endl;
+		cout << endl << "Actual: " << Actual_2 << "\t\t Prediction: " << all_state2[all_predictor[i%entries].current];
 		if (Actual_2 != all_state2[all_predictor[i%entries].current]) {
 			all_predictor[i%entries].miss++;
 		}
-		cout << "Miss: " << all_predictor[i%entries].miss<<endl;
+		cout << "\t\tMiss: " << all_predictor[i%entries].miss<<endl;
 		if (Actual == "1") {
 			//Actual 1
 			if (all_predictor[i%entries].state[all_predictor[i%entries].current] != 7) {
@@ -290,8 +291,3 @@ string type_SB(vector<string> instruction) {
 	}
 }
 
-/*
-string type_UJ(vector<string> instruction) {
-
-}
-*/

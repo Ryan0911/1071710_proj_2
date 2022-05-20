@@ -24,9 +24,12 @@
     <Text Include="input3.txt">
       <Filter>來源檔案</Filter>
     </Text>
+    <Text Include="input4.txt">
+      <Filter>來源檔案</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="(high)3-bit_history_predictor.cpp">
+    <ClCompile Include="3-bit_history_predictor_v2.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
