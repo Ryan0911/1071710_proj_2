@@ -2,11 +2,10 @@
 #include<cstring>
 #include<string>
 #include<fstream>
-#include <iomanip>
+#include<iomanip>
 #include<math.h>
 #include<vector>
 #include<map>
-#include<algorithm>
 #include<sstream>
 using namespace std;
 struct predictor {
@@ -104,13 +103,14 @@ int main() {
 			//print entry
 			cout << "Entries status: " << endl;
 			for (int e = 0; e < entries; e++) {
-				cout << "Entry: " << e << "\t\t";
+				cout << "Entry: " << e << "\t ";
+				cout << "History_miss: " << predictor_table[e].miss;
 				//該印的印一印，接下來處理...prediction???
-				cout << "(" << predictor_table[e].initial;
+				cout << "\t (" << predictor_table[e].initial;
 				for (int e2 = 0; e2 < 8; e2++) {
 					cout << ", " << all_state[predictor_table[e].state[e2]];
 				}
-				cout << ")" << endl;
+				cout << ")"<<endl;
 			}
 			Actual = which_type(instruction[i]);
 			//print entry
@@ -121,11 +121,12 @@ int main() {
 				Actual_2 = "T";
 			}
 			predictor_table[i%entries].current = binaryToDecimal(predictor_table[i%entries].initial);
+			cout << "Predict status: " << endl;
 			cout << "Used entry: " << i % entries << "\t Actual: " << Actual_2 << "\t Prediction: " << all_state2[predictor_table[i%entries].state[predictor_table[i%entries].current]];
 			if (Actual_2 != all_state2[predictor_table[i%entries].state[predictor_table[i%entries].current]]) {
 				predictor_table[i%entries].miss++;
 			}
-			cout << "\t Miss: " << predictor_table[i%entries].miss << endl;
+			cout << "\t Current_miss: " << predictor_table[i%entries].miss << endl;
 			if (Actual == "1") {
 				//Actual = 1
 				if (predictor_table[i%entries].state[predictor_table[i%entries].current] != 7) {
