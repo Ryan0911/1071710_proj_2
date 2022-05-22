@@ -6,6 +6,9 @@
 - [ ] youtube影片網址(尚未更新)
 ## 其餘內容
 * (high)3-bit_history_predictor.cpp為有bug之程式碼，可置之不理沒關係
+* input.txt是for 低分版做使用
+* input2.txt與input3.txt為作業區的sample input
+* input4.txt是上課的sample input
 ---
 ## 將會用到之說明圖片
 ### [1] 3-bit history predictor status
