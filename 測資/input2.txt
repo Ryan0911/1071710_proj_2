@@ -1,0 +1,19 @@
+li R2,0			; v=0 //addi R2,R0,0
+li R3,16		; Loop bound for LoopI //addi R3,R0,16
+li R4,0			; i=0 //addi R4,R0,0
+LoopI:
+beq R4,R3,EndLoopI	; Exit LoopI if i==16
+li R5,0			; j=0 //addi R5,R0,0
+LoopJ:
+beq R5,R3,EndLoopJ     ; Exit LoopJ if j==16
+add R6,R5,R4		; j+i
+andi R6,R6,3		; (j+i)%4
+bne R6,R0,Endif	; Skip if (j+i)%4!=0
+add R2,R2,R5		; v+=j
+Endif:
+addi R5,R5,1		; j++
+beq R0,R0,LoopJ	; Go back to LoopJ
+EndLoopJ:
+addi R4,R4,1		; i++
+beq R0,R0,LoopI	; Go back to LoopI
+EndLoopI:

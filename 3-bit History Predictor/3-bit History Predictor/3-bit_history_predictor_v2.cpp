@@ -35,7 +35,7 @@ int main() {
 		vector<string>temp;// 暫存使用
 		map<string, int> label; // 用於存放Label之對應要跳的行數
 		int position = 0;//切割字串紀錄位置用
-		string file_name = "0";
+		string file_name = "0"; //紀錄檔案位置
 		//輸入檔案名稱，若不存在則請使用者重新輸入
 		while (true) {
 			cout << "Please input the file name: ";
