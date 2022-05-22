@@ -29,7 +29,7 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3-bit_history_predictor_v2.cpp">
+    <ClCompile Include="1071710_proj_2_3-bit_history_predictor_v2.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>

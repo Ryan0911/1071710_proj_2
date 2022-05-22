@@ -23,6 +23,7 @@
     <ProjectGuid>{1F5C48B0-07E4-4764-8403-5C0996E4F0BD}</ProjectGuid>
     <RootNamespace>My3bitHistoryPredictor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>1071710_proj_2_3-bit History Predictor</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,7 +116,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="3-bit_history_predictor_v2.cpp" />
+    <ClCompile Include="1071710_proj_2_3-bit_history_predictor_v2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />

@@ -1,7 +1,8 @@
-﻿  3-bit_history_predictor_v2.cpp
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(94): warning C4018: '<': signed/unsigned 不相符
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(98): warning C4018: '<': signed/unsigned 不相符
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(173): warning C4244: '+=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(214): warning C4715: 'which_type': 不是所有控制路徑都傳回值
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(318): warning C4715: 'type_SB': 不是所有控制路徑都傳回值
-  3-bit History Predictor.vcxproj -> C:\Users\User\Desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit History Predictor\Debug\3-bit History Predictor.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中繼目錄 (Debug\) 包含從其他專案 (3-bit History Predictor.vcxproj) 共用的檔案。這可能導致錯誤的清除和重建行為。
+  1071710_proj_2_3-bit_history_predictor_v2.cpp
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\1071710_proj_2_3-bit_history_predictor_v2.cpp(94): warning C4018: '<': signed/unsigned 不相符
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\1071710_proj_2_3-bit_history_predictor_v2.cpp(98): warning C4018: '<': signed/unsigned 不相符
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\1071710_proj_2_3-bit_history_predictor_v2.cpp(173): warning C4244: '+=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\1071710_proj_2_3-bit_history_predictor_v2.cpp(214): warning C4715: 'which_type': 不是所有控制路徑都傳回值
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\1071710_proj_2_3-bit_history_predictor_v2.cpp(318): warning C4715: 'type_SB': 不是所有控制路徑都傳回值
+  3-bit History Predictor.vcxproj -> C:\Users\User\Desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit History Predictor\Debug\1071710_proj_2_3-bit History Predictor.exe
