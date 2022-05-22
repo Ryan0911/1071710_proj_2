@@ -1,7 +1,7 @@
 ﻿  3-bit_history_predictor_v2.cpp
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(92): warning C4018: '<': signed/unsigned 不相符
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(96): warning C4018: '<': signed/unsigned 不相符
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(170): warning C4244: '+=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(211): warning C4715: 'which_type': 不是所有控制路徑都傳回值
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(315): warning C4715: 'type_SB': 不是所有控制路徑都傳回值
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(94): warning C4018: '<': signed/unsigned 不相符
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(98): warning C4018: '<': signed/unsigned 不相符
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(172): warning C4244: '+=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(213): warning C4715: 'which_type': 不是所有控制路徑都傳回值
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit history predictor\3-bit history predictor\3-bit_history_predictor_v2.cpp(317): warning C4715: 'type_SB': 不是所有控制路徑都傳回值
   3-bit History Predictor.vcxproj -> C:\Users\User\Desktop\110課程\1102\組合語言與計算機組織\1071710_proj_2\3-bit History Predictor\Debug\3-bit History Predictor.exe
