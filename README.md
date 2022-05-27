@@ -3,7 +3,7 @@
 - [x] 程式碼 - 高分版：1071710_proj_2_3-bit_history_predictor_v2.cpp || 低分版：1071710_proj_2_(low)3-bit_history_predictor.cpp 
 - [x] 輸入輸出範例數組 - 低分版input: input.txt || 高分版input: input2.txt, input3.txt, input4.txt || 輸出範例：1071710_proj_2輸入輸出範例.docx
 - [x] 說明文件 - README.md
-- [ ] 1071710_proj_2_DEMO影片網址 (尚未更新)
+- [x] 1071710_proj_2_DEMO影片網址
 ## 其餘內容
 * 1071710_proj_2_(high)3-bit_history_predictor.cpp為有bug之程式碼，可置之不理沒關係
 * input.txt是for 低分版做使用
